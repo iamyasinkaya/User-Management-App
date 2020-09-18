@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KmJXsDjjwnQhQPMkniEBAL7m8f4KHemQGSlGYEarBt9HKj57fPC6Lm9vhx6MVZuXwj4lbd7LlYlwKZpZY1QG7g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\iamys\\.nuget\\packages\\fluentvalidation\\9.2.0\\fluentvalidation.9.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
