@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,7 +8,7 @@ using UserManagementApplication.Core.Entities.Base;
 
 namespace UserManagementApplication.Infrastucture.Data
 {
-    public class UserManagementApplicationContext : DbContext
+    public class UserManagementApplicationContext : IdentityDbContext
     {
         public UserManagementApplicationContext(DbContextOptions<UserManagementApplicationContext> options) : base(options)
         {
@@ -18,9 +19,7 @@ namespace UserManagementApplication.Infrastucture.Data
 
         protected  override  void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
-            
-
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {}
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
+        "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
         "projectName": "UserManagementApplication.Core",
-        "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
+        "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
         "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\obj\\",
+        "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

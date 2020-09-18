@@ -37,6 +37,8 @@ namespace UserManagementApplication.Web
             services.AddScoped<IUserService, UserService>();
 
             services.AddSwaggerGen();
+            services.AddControllersWithViews();
+            services.AddRazorPages();
 
 
         }
@@ -47,6 +49,7 @@ namespace UserManagementApplication.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {
@@ -56,7 +59,8 @@ namespace UserManagementApplication.Web
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseAuthentication();
+            app.UseAuthorization();
             app.UseRouting();
 
             app.UseSwagger();
@@ -75,6 +79,7 @@ namespace UserManagementApplication.Web
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

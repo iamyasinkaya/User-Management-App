@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj": {}
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj": {
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj",
+        "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj",
         "projectName": "UserManagementApplication.Application",
-        "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj",
+        "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj",
         "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\obj\\",
+        "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
-                "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj"
+              "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
+                "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
+        "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
         "projectName": "UserManagementApplication.Core",
-        "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
+        "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj",
         "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\obj\\",
+        "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -107,6 +107,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -128,14 +132,14 @@
         }
       }
     },
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj": {
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj",
+        "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj",
         "projectName": "UserManagementApplication.Infrastucture",
-        "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj",
+        "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj",
         "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\obj\\",
+        "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,8 +155,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
-                "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj"
+              "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj": {
+                "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Core\\UserManagementApplication.Core.csproj"
               }
             }
           }
@@ -166,6 +170,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.5, )"
@@ -198,6 +206,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -206,14 +217,14 @@
         }
       }
     },
-    "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj": {
+    "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj",
+        "projectUniqueName": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj",
         "projectName": "UserManagementApplication.Web",
-        "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj",
+        "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Web\\UserManagementApplication.Web.csproj",
         "packagesPath": "C:\\Users\\iamys\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Web\\obj\\",
+        "outputPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\iamys\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -229,11 +240,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj": {
-                "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj"
+              "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj": {
+                "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Application\\UserManagementApplication.Application.csproj"
               },
-              "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj": {
-                "projectPath": "C:\\Users\\iamys\\source\\repos\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj"
+              "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj": {
+                "projectPath": "C:\\Users\\iamys\\OneDrive\\Belgeler\\GitHub\\UserManagementApplication\\UserManagementApplication\\UserManagementApplication.Infrastucture\\UserManagementApplication.Infrastucture.csproj"
               }
             }
           }
@@ -247,6 +258,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"

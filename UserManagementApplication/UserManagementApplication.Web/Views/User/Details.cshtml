@@ -57,7 +57,7 @@
                     <div class="card-title mb-4">
                         <div class="d-flex justify-content-start">
                             <div class="image-container">
-                                <img src="~/img/user/user2.png" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
+                                <img src="~/img/user/@Model.ImageUrl" id="imgProfile" style="width: 150px; height: 150px" class="img-thumbnail" />
                                 <div class="middle">
                                     <input type="file" style="display: none;" id="profilePicture" name="file" />
                                 </div>
@@ -124,6 +124,17 @@
                                         </div>
                                     </div>
                                     <hr />
+                                    <div class="row" >
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Date Of Birth</label>
+                                        </div>
+                                        <div class="col-md-8 col-6" >
+                                            @Model.DateOfBirth.Date
+                                        </div>
+                                    </div>
+                                    <hr />
+                                 
+
                                     <a class="btn btn-outline-danger" asp-action="Index">Back to List</a>
 
                                     <hr />

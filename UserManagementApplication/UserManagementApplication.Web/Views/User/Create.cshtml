@@ -31,7 +31,17 @@
                 <input required="required" asp-for="PhoneNumber" class="form-control" />
                 <span asp-validation-for="PhoneNumber" class="text-danger"></span>
             </div>
-        
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input required="required" asp-for="DateOfBirth" class="form-control" type="date" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input required="required" asp-for="ImageUrl" class="form-control-file" type="file"/>
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-outline-primary" />
             </div>
