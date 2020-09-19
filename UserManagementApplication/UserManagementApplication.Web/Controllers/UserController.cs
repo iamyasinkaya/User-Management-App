@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 using UserManagementApplication.Application.FluentValidation;
 using UserManagementApplication.Application.Interfaces;
 using UserManagementApplication.Application.Models;
+using UserManagementApplication.Core.Interfaces.Logger;
 
 namespace UserManagementApplication.Web.Controllers
 {
@@ -11,10 +12,12 @@ namespace UserManagementApplication.Web.Controllers
     {
         private readonly IUserService _userService;
         private readonly ILogger _logger;
-        public UserController(IUserService userService, ILogger<UserController> logger)
+        private readonly IAppLogger<UserModel> _appLogger;
+        public UserController(IUserService userService, ILogger<UserController> logger, IAppLogger<UserModel> appLogger)
         {
             _userService = userService;
             _logger = logger;
+            _appLogger = appLogger;
         }
 
         #region List Method
@@ -43,8 +46,9 @@ namespace UserManagementApplication.Web.Controllers
 
             if (result.IsValid)
             {
-
                 await _userService.CreateAsync(model);
+                _appLogger.LogInformation("User Added", result);
+
 
             }
 
