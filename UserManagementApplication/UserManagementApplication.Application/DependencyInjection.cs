@@ -14,9 +14,6 @@ namespace UserManagementApplication.Application
 
         public static IServiceCollection AddApplication(this IServiceCollection services, IConfiguration configuration)
         {
-           
-            
-
             return services;
         }
     }

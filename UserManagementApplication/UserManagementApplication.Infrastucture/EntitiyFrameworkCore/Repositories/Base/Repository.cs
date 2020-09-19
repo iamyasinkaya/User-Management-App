@@ -31,7 +31,7 @@ namespace UserManagementApplication.Infrastucture.EntitiyFrameworkCore.Repositor
         {
             var entity = await _userManagementApplicationContext.Set<T>().FindAsync(id);
 
-             _userManagementApplicationContext.Set<T>().Remove(entity);
+            _userManagementApplicationContext.Set<T>().Remove(entity);
             await _userManagementApplicationContext.SaveChangesAsync();
             return entity;
         }

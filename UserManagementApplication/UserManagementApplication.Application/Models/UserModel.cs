@@ -8,7 +8,7 @@ namespace UserManagementApplication.Application.Models
 {
     public class UserModel : BaseEntityModel
     {
-        [Display(Name ="First Name")]
+        [Display(Name = "First Name")]
         [DataType(DataType.Text)]
         public string FirstName { get; set; }
 
@@ -28,12 +28,12 @@ namespace UserManagementApplication.Application.Models
         public string PhoneNumber { get; set; }
 
 
-        [Display(Name ="Date Of Birth")]
+        [Display(Name = "Date Of Birth")]
         [DataType(DataType.Date)]
         public DateTime DateOfBirth { get; set; }
 
 
-        [Display(Name ="Image")]
+        [Display(Name = "Image")]
         [DataType(DataType.ImageUrl)]
         public string ImageUrl { get; set; }
     }

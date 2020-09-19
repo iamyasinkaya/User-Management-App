@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using UserManagementApplication.Application.FluentValidation;
 using UserManagementApplication.Application.Interfaces;
 using UserManagementApplication.Application.Models;
@@ -9,10 +10,11 @@ namespace UserManagementApplication.Web.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
-
-        public UserController(IUserService userService)
+        private readonly ILogger _logger;
+        public UserController(IUserService userService, ILogger<UserController> logger)
         {
             _userService = userService;
+            _logger = logger;
         }
 
         #region List Method
@@ -23,6 +25,7 @@ namespace UserManagementApplication.Web.Controllers
             return View(await _userService.GetAll());
         }
         #endregion
+
 
         #region Create Method
         [HttpGet]
@@ -40,12 +43,17 @@ namespace UserManagementApplication.Web.Controllers
 
             if (result.IsValid)
             {
+
                 await _userService.CreateAsync(model);
+
             }
+
+
 
             return RedirectToAction(nameof(Index));
         }
         #endregion
+
 
         #region Details Method
 
@@ -58,6 +66,7 @@ namespace UserManagementApplication.Web.Controllers
 
         #endregion
 
+
         #region Home
 
         public async Task<IActionResult> Home()
@@ -67,8 +76,10 @@ namespace UserManagementApplication.Web.Controllers
 
         #endregion
 
+
+        #region Delete Method
         [HttpGet]
-        public async Task<IActionResult> Delete(UserModel userModel,int Id)
+        public async Task<IActionResult> Delete(UserModel userModel, int Id)
         {
             var entity = await _userService.GetByIdAsync(userModel);
 
@@ -81,11 +92,14 @@ namespace UserManagementApplication.Web.Controllers
             if (ModelState.IsValid)
             {
                 await _userService.DeleteAsync(userModel);
-                
+
             }
             return RedirectToAction(nameof(Index));
         }
+        #endregion
 
+
+        #region Edit Method
         [HttpGet]
         public async Task<IActionResult> Edit(UserModel userModel, int Id)
         {
@@ -104,5 +118,8 @@ namespace UserManagementApplication.Web.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+        #endregion
+
+
     }
 }

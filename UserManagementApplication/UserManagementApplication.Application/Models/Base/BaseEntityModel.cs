@@ -7,7 +7,7 @@ namespace UserManagementApplication.Application.Models.Base
 {
     public class BaseEntityModel
     {
-        [Display(Name ="User ID")]
+        [Display(Name = "User ID")]
         public int Id { get; set; }
     }
 }

@@ -41,6 +41,7 @@ namespace UserManagementApplication.Web
             services.AddRazorPages();
 
 
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +50,7 @@ namespace UserManagementApplication.Web
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                
+
             }
             else
             {

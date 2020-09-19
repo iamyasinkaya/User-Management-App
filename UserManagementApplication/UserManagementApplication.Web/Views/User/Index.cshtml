@@ -8,7 +8,7 @@
 
 
 <p>
-    <a class ="btn btn-outline-success" asp-action="Create">Create New</a>
+    <a class="btn btn-outline-success" asp-action="Create">Create New</a>
 </p>
 
 <div class="table-responsive-sm">
@@ -34,7 +34,7 @@
                 <th>
                     @Html.DisplayNameFor(model => model.DateOfBirth)
                 </th>
-             
+
 
                 <th>Actions</th>
             </tr>
@@ -61,7 +61,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.DateOfBirth)
                     </td>
-                   
+
 
                     <td>
                         @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-outline-primary" }) |

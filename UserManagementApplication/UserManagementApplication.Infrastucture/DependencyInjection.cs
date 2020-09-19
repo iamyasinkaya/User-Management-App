@@ -2,10 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using UserManagementApplication.Core.Entities;
 using UserManagementApplication.Core.Interfaces;
 using UserManagementApplication.Core.Interfaces.Base;
 using UserManagementApplication.Infrastucture.Data;

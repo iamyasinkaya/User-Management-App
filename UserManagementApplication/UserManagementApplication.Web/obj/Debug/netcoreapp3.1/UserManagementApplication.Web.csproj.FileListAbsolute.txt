@@ -330,9 +330,6 @@ C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagement
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.csproj.CoreCompileInputs.cache
-C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -376,3 +373,6 @@ C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagement
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.csproj.CoreCompileInputs.cache
+C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\iamys\OneDrive\Belgeler\GitHub\UserManagementApplication\UserManagementApplication\UserManagementApplication.Web\obj\Debug\netcoreapp3.1\UserManagementApplication.Web.MvcApplicationPartsAssemblyInfo.cache

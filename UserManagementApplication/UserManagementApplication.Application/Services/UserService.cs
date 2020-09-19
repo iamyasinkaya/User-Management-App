@@ -28,8 +28,8 @@ namespace UserManagementApplication.Application.Services
             var newMappedEntity = MappingProfile.Mapper.Map<UserModel>(newEntity);
 
             return newMappedEntity;
-            
-            
+
+
         }
 
         public async Task<UserModel> DeleteAsync(UserModel userModel)
@@ -45,7 +45,7 @@ namespace UserManagementApplication.Application.Services
             var userList = await _userRepository.GetAll();
             var mapped = MappingProfile.Mapper.Map<IEnumerable<UserModel>>(userList);
             return mapped;
-            
+
         }
 
         public async Task<UserModel> GetByIdAsync(UserModel userModel)
