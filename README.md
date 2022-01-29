@@ -1,7 +1,7 @@
-# User Management Application
+# User Management Application :wave:	
 It is a simple user management application prepared with today's technologies.
 
-# Technologies
+# Technologies :technologist:	
 
 - EntityFrameworkCore
 - FluentValidation
